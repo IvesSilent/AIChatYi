@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 0;
+    background-color: #eaeaea;
+}
+
+h1 {
+    text-align:center;
+    color: #333333;
+}
+
+#introduction {
+    text-align:center;
+    margin: 20px;
+    font-size:15px;
+    color: #333333;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.message-area {
+    width: 1200px;
+    height: 450px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    padding: 10px;
+
+    border-radius: 5px;
+
+
+    background-color: white;
+    /* 设置容器背景颜色为白色 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* 为容器添加一个轻微的阴影效果 */
+}
+
+.message {
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+    background-color: #f9f9f9;
+
+    border: 1px solid #ddd;
+    /* 添加一个 1 像素宽的浅灰色边框 */
+    padding: 15px;
+    /* 设置内边距为 15 像素 */
+    margin: 10px;
+    /* 设置外边距为 10 像素 */
+    border-radius: 10px;
+    /* 设置 10 像素的圆角 */
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* 添加轻微的阴影效果 */
+
+}
+
+.input-area {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+   flex: 1;
+    /* 让搜索输入框占据剩余空间 */
+    padding: 15px;
+    width: 80%;
+
+    /* border: 1px solid #ccc; */
+
+    font-size: 16px; /* 增大字体，提高可读性 */
+    border: 2px solid #aaa; /* 加粗边框 */
+
+    border-radius: 5px;
+    margin-right:10px;
+    box-sizing: border-box;
+}
+
+button {
+margin-right: 10px; /* 添加发送按钮的右侧外边距 */
+    background-color: #333333;
+    color: white;
+
+    /* padding: 0px 50px;*/
+    padding: 15px 60px; /* 增加按钮的内边距，使其更容易点击 */
+    font-size: 20px; /* 增大按钮文字的字体大小 */
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555; /* 修改为合适的颜色 */
+}
+
+/* 黑暗主题样式 */
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+}
+
+.dark-theme h1 {
+    text-align:center;
+    color: #f55c00;
+}
+
+.dark-theme #introduction {
+    color: #f55c00;
+}
+
+.dark-theme .message-area {
+    background-color: #2a2a2a;
+    border-color: #dc6218;
+}
+
+.dark-theme .message {
+    background-color: #363636;
+    color: #f55c00;
+    border-color: #ff8c00;
+}
+
+.dark-theme button {
+    background-color: #ff7300;
+    color: black;
+
+    /* padding: 0px 50px;*/
+    padding: 15px 60px; /* 增加按钮的内边距，使其更容易点击 */
+    font-size: 20px; /* 增大按钮文字的字体大小 */
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-theme button:hover {
+    background-color: #ff8c00; /* 修改为合适的颜色 */
+}

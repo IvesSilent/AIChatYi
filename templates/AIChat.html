@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIChatYi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='AIChat.css') }}">
+    <script src="{{ url_for('static', filename='AIChatScr.js') }}"></script>
+    <!-- 在<head>部分添加 -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+<h1>AIChatYi</h1>
+<div id="introduction">接入零一万物或混元LLM的对话应用</div>
+<div class="container">
+    <div class="message-area">
+        <div id="messages"></div>
+    </div>
+    <div class="input-area">
+        <input type="text" id="user_message" placeholder="输入消息...">
+        <!-- 在 input-area 内添加隐藏的输入字段 -->
+        <input type="hidden" id="history" name="history">
+        <button id="send_button">发送</button>
+        <button id="theme_button">主题</button>
+    </div>
+</div>
+</body>
+</html>
