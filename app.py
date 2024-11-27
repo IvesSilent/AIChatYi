@@ -13,7 +13,7 @@ app = Flask(__name__)
 # API_BASE = "https://api.lingyiwanwu.com/v1"
 # API_KEY = "API_KEY_Yi"  # 替换为你的API_KEY
 API_BASE = "https://api.hunyuan.cloud.tencent.com/v1"
-API_KEY = "sk-6R0hq8U7v3bSbT1u41Lp6kPRwAgf9wnW73WgvSC7WUI73eRO"  # 替换为你的API_KEY
+API_KEY = "API_KEY_HY"  # 替换为你的API_KEY
 
 client = openai.OpenAI(api_key=API_KEY, base_url=API_BASE)
 

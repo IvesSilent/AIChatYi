@@ -1,8 +1,3 @@
-当然可以。以下是一个基本的 `README.md` 文件模板和 `requirements.txt` 文件内容，你可以根据你的项目具体情况进行调整。
-
-### README.md
-
-```markdown
 # AIChatYi
 
 AIChatYi 是一个基于 Flask 框架和混元LLM实现的对话应用，允许用户与人工智能进行交互。

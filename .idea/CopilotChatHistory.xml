@@ -4,6 +4,18 @@
     <option name="conversations">
       <list>
         <Conversation>
+          <option name="createTime" value="1732718291787" />
+          <option name="id" value="01936e0eeb4a71ea8c964171a10b3998" />
+          <option name="title" value="新对话 2024年11月27日 22:38:11" />
+          <option name="updateTime" value="1732718291787" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1732702208469" />
+          <option name="id" value="01936d1981d579aaa8bf426a340f5356" />
+          <option name="title" value="新对话 2024年11月27日 18:10:08" />
+          <option name="updateTime" value="1732702208469" />
+        </Conversation>
+        <Conversation>
           <option name="createTime" value="1732693865902" />
           <option name="id" value="01936c9a35ae7e8aad42a3bf11d30fd7" />
           <option name="title" value="@workspace 我实现了一个基于Flask框架的应用，能跟混元大模型进行交互。我试图实现流式传" />
